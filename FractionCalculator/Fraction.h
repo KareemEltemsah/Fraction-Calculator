@@ -1,5 +1,6 @@
 #ifndef FRACTION_H_INCLUDED
 #define FRACTION_H_INCLUDED
+#include <iostream>
 
 class Fraction
 {
@@ -10,17 +11,17 @@ public:
     // constructors
     Fraction ();
     Fraction (int n, int d);
-
-    Fraction operator + (Fraction F);// adding
-    Fraction operator - (Fraction F);// subtracting
-    Fraction operator * (Fraction F);// multiplying
-    Fraction operator / (Fraction F);// dividing
+    // operations
+    Fraction operator + (Fraction f);// adding
+    Fraction operator - (Fraction f);// subtracting
+    Fraction operator * (Fraction f);// multiplying
+    Fraction operator / (Fraction f);// dividing
     // comparing
-    Fraction operator < (Fraction F);
-    Fraction operator > (Fraction F);
-    Fraction operator ==(Fraction F);
-    Fraction operator <=(Fraction F);
-    Fraction operator >=(Fraction F);
+    bool operator < (Fraction f);
+    bool operator > (Fraction f);
+    bool operator ==(Fraction f);
+    bool operator <=(Fraction f);
+    bool operator >=(Fraction f);
     // input & output
     friend std::istream& operator>> (std::istream& in , Fraction& f);
     friend std::ostream& operator<< (std::ostream& out , Fraction f);
