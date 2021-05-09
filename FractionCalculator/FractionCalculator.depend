@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1620575541 source:c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\main.cpp
+1620594770 source:c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\main.cpp
 	<iostream>
 	"Fraction.cpp"
 
-1620571237 c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\fraction.h
+1620593892 c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\fraction.h
 	<iostream>
 
-1620577990 c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\fraction.cpp
+1620594000 c:\users\kareem eltemsah\documents\github\fraction-calculator\fractioncalculator\fraction.cpp
 	"Fraction.h"
 	<iostream>
 

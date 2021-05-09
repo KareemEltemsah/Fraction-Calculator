@@ -11,6 +11,8 @@ public:
     // constructors
     Fraction ();
     Fraction (int n, int d);
+
+    int getNumerator();
     // operations
     Fraction operator + (Fraction f);// adding
     Fraction operator - (Fraction f);// subtracting

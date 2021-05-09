@@ -14,6 +14,10 @@ Fraction::Fraction(int n, int d)
     denominator = d;
     this -> reduce();
 }
+int Fraction::getNumerator()
+{
+    return numerator;
+}
 Fraction Fraction::operator + (Fraction f)
 {
     Fraction result;
