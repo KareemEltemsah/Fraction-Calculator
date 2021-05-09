@@ -8,5 +8,8 @@ int main()
     cin >> a >> b;
     cout << a << endl << b << endl;
     cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
     return 0;
 }
